@@ -95,3 +95,52 @@ text-transform: capitalize;
 margin-top: 24px;
 margin-bottom: 20px;
 }
+
+
+
+
+
+.service_area {
+  background-color: #F3F2F3;
+  padding: 80px 0;
+}
+.service_title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single_service img {
+  width: 100%;
+}
+.single_service {
+  background-color: #fff;
+  padding: 20px;
+  flex-basis: 32%;
+}
+.single_service h2 {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #0C8C7F;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.single_service p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.service_btn {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 17px;
+  background-color: tomato;
+  padding: 8px 15px;
+}
