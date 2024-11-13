@@ -90,6 +90,10 @@ margin: 30px auto;
   border: 1px solid #ddd;
   padding: 52px 20px;
 }
+.single_about:hover{
+  border: 1px solid tomato;
+  transition:.3s;
+}
 
 .single_about i {
 font-size: 36px;
@@ -98,6 +102,10 @@ border-radius: 50%;
 width: 70px;
 height: 70px;
 line-height: 70px;
+}
+.single_about:hover i{
+  border: 2px solid tomato;
+  transition:.3s;
 }
 .single_about h2 {
 text-transform: capitalize;
@@ -145,8 +153,9 @@ margin-bottom: 20px;
   margin-bottom: 10px;
 }
 .single_service p {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-size: 15px;
 }
 .service_btn {
   text-transform: capitalize;
@@ -155,4 +164,8 @@ margin-bottom: 20px;
   margin-top: 17px;
   background-color: tomato;
   padding: 8px 15px;
+}
+.service_btn:hover {
+	background-color: teal;
+	transition: .3s;
 }
