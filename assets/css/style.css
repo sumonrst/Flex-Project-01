@@ -117,11 +117,15 @@ margin-bottom: 20px;
 }
 .single_service img {
   width: 100%;
+  transition: all 1.1s;
 }
 .single_service {
   background-color: #fff;
   padding: 20px;
   flex-basis: 32%;
+}
+.single_service:hover img{
+  transform: scale(1.1);
 }
 .single_service h2 {
   text-align: center;
